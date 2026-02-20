@@ -27,8 +27,8 @@ section#wrapper {
   background-color: var(--white);
   border-radius: 14px;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 50%; /*positions the card at the center of the y axis*/
+  left: 50%; /*postions the card at the center of the x axis*/
   transform: translate(-50%, -50%);
   box-shadow: 0px 10px 18px 0px rgba(0, 0, 0, 0.204);
 }
