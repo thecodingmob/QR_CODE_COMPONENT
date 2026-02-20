@@ -1,0 +1,59 @@
+:root {
+  /*colors*/
+  --white: hsl(0, 0%, 100%);
+  --slate-300: hsl(212, 45%, 89%);
+  --slate-500: hsl(216, 15%, 48%);
+  --slate-900: hsl(218, 44%, 22%);
+}
+@font-face {
+  font-family: "Outfit";
+  src: url("font/Outfit-VariableFont_wght.ttf");
+}
+/*resets margins and paddings*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Outfit";
+  font-size: 15px;
+
+  /*align wrapper at the middle*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--slate-300);
+}
+section#wrapper {
+  width: 324px;
+  margin: 8% 0 8% 0;
+  padding: 14px;
+  background-color: var(--white);
+  border-radius: 14px;
+}
+section#wrapper aside {
+  width: 100%;
+  height: auto;
+}
+section#wrapper img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+section#wrapper h1 {
+  text-align: center;
+  padding: 20px 20px 16px 20px;
+  font-size: 1.42em;
+}
+section#wrapper p {
+  text-align: center;
+  padding: 0 0 23px 50px;
+  position: relative;
+  right: 25px;
+}
+@media (max-width: 50em) {
+  section#wrapper {
+    margin: 40% 0 20% 0;
+  }
+}
