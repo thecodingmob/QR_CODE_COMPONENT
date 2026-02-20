@@ -30,6 +30,7 @@ section#wrapper {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  box-shadow: 0px 10px 18px 0px rgba(0, 0, 0, 0.204);
 }
 section#wrapper aside {
   width: 100%;
@@ -42,14 +43,15 @@ section#wrapper img {
 }
 section#wrapper h1 {
   text-align: center;
-  padding: 20px 20px 16px 20px;
-  font-size: 1.42em;
+  padding: 18px 20px 16px 20px;
+  font-size: 1.43em;
   color: var(--slate-900);
 }
 section#wrapper p {
   text-align: center;
-  padding: 0 0 23px 50px;
+  padding: 0 0 23px 48px;
   position: relative;
   right: 25px;
   color: var(--slate-500);
+  line-height: 1.4;
 }
